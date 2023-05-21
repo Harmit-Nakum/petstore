@@ -1,0 +1,207 @@
+body {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    height: 510px;
+    position: relative;
+    border: 1px solid #bfbfbf;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+}
+
+.contant {
+    width: 100%;
+    height: 370px;
+    overflow-y: scroll;
+}
+
+table,
+tr,
+th {
+    border-collapse: collapse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+tr,
+th {
+    border: 1px solid;
+    padding: 15px 65px;
+    font-size: 17px;
+}
+
+table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r1 {
+    border: 1px solid #333;
+    width: 60%;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.r1:hover {
+    background-color: rgb(0, 255, 0);
+}
+
+.contant1 {
+    border: 1px solid;
+    width: 20%;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+}
+
+.txt1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: oblique;
+    text-indent: 20px;
+}
+
+.sign {
+    position: absolute;
+    font-size: 24px;
+    top: 45px;
+    border-bottom: 1px solid;
+    width: 150px;
+    right: 10px;
+}
+
+.txt2 {
+    font-size: 21px;
+    font-weight: 600;
+    font-style: oblique;
+    float: right;
+    position: relative;
+    top: -27px;
+    right: 20px;
+}
+
+.contant1 .payment {
+    width: 80%;
+    padding: 10px;
+    margin: 0 25px;
+    background-color: #333;
+    border-radius: 10px;
+    border: 1px solid #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 90px;
+}
+
+.contant1 .payment:hover {
+    background-color: rgb(0, 255, 0);
+}
+
+.contant1 .method {
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+    left: 27px;
+}
+
+.container {
+    overflow-y: auto;
+}
+
+.r11 {
+    width: 100%;
+    height: 150px;
+    display: inline;
+    position: relative;
+    top: 20px;
+    border-radius: 0 10px;
+    background-color: #ebebeb;
+}
+
+.r21 {
+    width: 40%;
+    border: 1px solid slategray;
+    height: 40px;
+    border-radius: 0 10px;
+    font-weight: 700;
+    font-style: oblique;
+    text-align: justify;
+    display: flex;
+    position: relative;
+    top: -16px;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+    color: white;
+}
+
+.r31 {
+    font-size: 16px;
+    color: rgb(83, 83, 83);
+    font-weight: 400;
+    font-style: oblique;
+    text-align: justify;
+    text-indent: 30px;
+    position: relative;
+    top: -33px;
+    border: 1px solid slategray;
+    height: 88px;
+    border-radius: 0 10px;
+    padding: 10px;
+}
+
+.r41 input {
+    position: absolute;
+    top: 90px;
+    right: 40px;
+    width: 10%;
+    height: 30px;
+    background-color: #333;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #333;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.r41 input:hover {
+    background-color: rgb(0, 255, 0);
+}
+
+.r51 input {
+    position: absolute;
+    top: 90px;
+    right: 200px;
+    width: 10%;
+    height: 30px;
+    background-color: rgb(0, 200, 255);
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid rgb(0, 200, 255);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.r51 input:hover {
+    background-color: rgb(104, 207, 251);
+}

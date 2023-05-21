@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird </title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+</head>
+
+<body>
+    <header>
+        
+        <div class="sign">
+            <input class="search" type="search" placeholder="Favorite Pet ......" style="letter-spacing: 2px; font-weight:600; ">
+            <a href="login.html"><input class="sign1" type="submit" value="Log-in"></a>
+            <a href="mycart.php">
+                <lord-icon src=" https://cdn.lordicon.com/slkvcfos.json " stroke="100 " colors="primary:#b4b4b4,secondary:#6c16c7 ">
+                </lord-icon>
+            </a>
+
+        </div>
+        <nav class="menu">
+            <ul>
+                <li class="a1"><a href="petstore.html">Home</a></li>
+                <li class="a1"><a href="#instument">Pet</a>
+                    <div class="submenu" style="margin-left: 30px; ">
+                        <ul>
+                            <li><a href="Dog.html">Dog</a></li>
+                            <li><a href="Cat.html">Cat</a></li>
+                            <li><a href="Bird.html">Bird</a></li>
+                            <li><a href="Fish.html">Fish</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="a1 "><a href="petstore.html#review">Reviews</a></li>
+                <li><a href="petstore.html#about">About us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="section">
+        <div class="nv2">
+            
+            <p class="txt">Birds</p>
+            <p class="txt11">Birds are the eyes of heaven.</p>
+            <input class="btn" id="order" type="submit" onclick="order()" value="Order Now">
+            <a href="#bird1">Parrots</a>
+            <a href="#bird2">Humming</a>
+            <a href="#bird3">Owl</a>
+            <a href="#bird4">Toucans</a>
+            
+        </div>
+        <form action="cart.php" method="post">
+            <div class="contant" id="bird1">
+                <img src="image/img/Parrots.jpg" alt="Parrots">
+                <p class="txt">Parrots</p>
+                <p class="txt1">Parrots are a diverse group of birds belonging to the order Psittaciformes. There are over 393 species of parrots found in various parts of the world, primarily in tropical and subtropical regions.</p>
+                <p class="txt2">₹ 8999/-</p>
+                <lord-icon src="https://cdn.lordicon.com/rjzlnunf.json" class="lord1" trigger="hover" colors="primary:#121331,secondary:#08a88a">
+                </lord-icon>
+                <lord-icon src="https://cdn.lordicon.com/hlywgxmy.json" class="lord2" trigger="hover"></lord-icon>
+                <div class="cart" onclick="AddCart()">
+                    <input class="txt1" type="submit" value="Add to Cart" name="ADD_TO_CART">
+                </div>
+                <input type="hidden" name="Product_name" value="Parrots">
+                <input type="hidden" name="Product_price" value="8999">
+            </div>
+        </form>
+        <form action="cart.php" method="post">
+            <div class="contant1" id="bird2">
+                <img src="image/img/Humming.jpg" alt="Humming">
+                <p class="txt">Humming</p>
+                <p class="txt1">Hummingbirds are a family of birds known as Trochilidae, comprising more than 300 different species. They are found exclusively in the Americas, from Alaska to Tierra del Fuego.</p>
+                <p class="txt2">₹ 7899/-</p>
+                <lord-icon src="https://cdn.lordicon.com/rjzlnunf.json" class="lord3" trigger="hover" colors="primary:#121331,secondary:#08a88a">
+                </lord-icon>
+                <lord-icon src="https://cdn.lordicon.com/hlywgxmy.json" class="lord4" trigger="hover"></lord-icon>
+                <div class="cart" onclick="AddCart()">
+                    <input class="txt1" type="submit" value="Add to Cart" name="ADD_TO_CART">
+                </div>
+                <input type="hidden" name="Product_name" value="Humming">
+                <input type="hidden" name="Product_price" value="7899">
+            </div>
+        </form>
+        <form action="cart.php" method="post">
+            <div class="contant" id="bird3">
+                <img src="image/img/Owl.jpg" alt="Owl">
+                <p class="txt">Owl</p>
+                <p class="txt1"> Owls are birds of prey belonging to the order Strigiformes. There are around 200 species of owls found throughout the world, except for Antarctica.
+                </p>
+                <p class="txt2">₹ 7799/-</p>
+                <lord-icon src="https://cdn.lordicon.com/rjzlnunf.json" class="lord1" trigger="hover" colors="primary:#121331,secondary:#08a88a">
+                </lord-icon>
+                <lord-icon src="https://cdn.lordicon.com/hlywgxmy.json" class="lord2" trigger="hover"></lord-icon>
+                <div class="cart" onclick="AddCart()">
+                    <input class="txt1" type="submit" value="Add to Cart" name="ADD_TO_CART">
+                </div>
+                <input type="hidden" name="Product_name" value="Owl">
+                <input type="hidden" name="Product_price" value="7799">
+            </div>
+        </form>
+        <form action="cart.php" method="post">
+            <div class="contant1" id="bird4">
+                <img src="image/img/Toucans.jpg" alt="Toucans">
+                <p class="txt">Toucans</p>
+                <p class="txt1"> Toucans are a group of birds belonging to the family Ramphastidae. There are about 40 different species of toucans found in the tropical forests of Central and South America.</p>
+                <p class="txt2">₹ 8399/-</p>
+                <lord-icon src="https://cdn.lordicon.com/rjzlnunf.json" class="lord3" trigger="hover" colors="primary:#121331,secondary:#08a88a">
+                </lord-icon>
+                <lord-icon src="https://cdn.lordicon.com/hlywgxmy.json" class="lord4" trigger="hover"></lord-icon>
+                <div class="cart" onclick="AddCart()">
+                    <input class="txt1" type="submit" value="Add to Cart" name="ADD_TO_CART">
+                </div>
+                <input type="hidden" name="Product_name" value="Toucans">
+                <input type="hidden" name="Product_price" value="8399">
+            </div>
+        </form>
+        
+    </div>
+
+    
+    <footer>
+        <div class="foot1">
+            <div class="foot2">
+                <img src="image/award.png" alt=" ">
+                <div class="c1">
+                    <div class="tx1">India's #1</div>
+                    <div class="tx2">Online Pet Store</div>
+                </div>
+                <img src="image/disk.png" alt=" ">
+                <div class="c1">
+                    <div class="tx1">Pets</div>
+                    <div class="tx2">Large collection </div>
+                </div>
+                <img src="image/our moto.png" alt=" ">
+                <div class="c1">
+                    <div class="tx1">Moto</div>
+                    <div class="tx2">Live with Pets</div>
+                </div>
+                <img src="image/247.png" alt=" ">
+                <div class="c1">
+                    <div class="tx1">24/7</div>
+                    <div class="tx2">Customer Support</div>
+                </div>
+            </div>
+        </div>
+        <div class="foot3">
+            <div class="info">
+                <div class="info1">Information</div>
+                <div class="info2">About Us</div>
+                <div class="info2">Privacy Policy</div>
+                <div class="info2">Warranty</div>
+                <div class="info2">Find my Product</div>
+                <div class="info2">Reward Points</div>
+            </div>
+            <div class="info">
+                <div class="info1">Our Company</div>
+                <div class="info2">Photo Gallery</div>
+                <div class="info2">Blog</div>
+            </div>
+            <div class="info" id="contact">
+                <div class="info1">Customer Service</div>
+                <div class="info2">Contact</div>
+                <div class="info2">FAQs</div>
+                <div class="info2">Shipping Policy</div>
+                <div class="info2">Refund Policy</div>
+                <div class="info2">Cancellation Policy</div>
+                <div class="info2">Track Order</div>
+            </div>
+        </div>
+        <div class="foot4">
+            <div class="info3">© 2023 HarmonyHQ Pvt. Ltd</div>
+            <span class="info4">Connect :</span>
+            <span class="icons">
+                <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-whatsapp fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
+            </span>
+        </div>
+
+    </footer>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="music.js"></script>
+</body>
+
+</html>
